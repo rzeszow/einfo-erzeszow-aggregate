@@ -48,7 +48,7 @@ const _jobHandler = () => {
 
         let now = new Date();
         let fileName = Math.round(now.getTime() / 1000).toString().concat('.xml');
-        let dirName = './data' + [now.getFullYear(), now.getMonth(), now.getDay(), now.getHours()].join('/');
+        let dirName = './data/' + [now.getFullYear(), now.getMonth(), now.getDay(), now.getHours()].join('/');
         let filePath = [dirName, fileName].join('/');
 
         if (!fs.existsSync(dirName)){
@@ -66,4 +66,4 @@ const _jobHandler = () => {
     });
 };
 
-const scheduledJob = schedule.scheduleJob('* * * * *', _jobHandler);
+const scheduledJob = schedule.scheduleJob('*/2 * * * * *', _jobHandler);
