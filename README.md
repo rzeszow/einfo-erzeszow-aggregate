@@ -1,4 +1,4 @@
-# einfo-erzeszow-agregate
+# einfo-erzeszow-aggregate
 
 The micro app gathering buses possitions from einfo.erzeszow.pl
 
