@@ -15,7 +15,7 @@
     "bunyan": "^1.8.15"
   },
   "devDependencies": {
-    "debug": "^4.3.3"
+    "debug": "^4.3.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
