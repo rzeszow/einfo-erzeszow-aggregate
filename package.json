@@ -11,7 +11,7 @@
     "dotenv": "^16.0.1",
     "log4js": "^6.7.0",
     "mkdir-recursive": "^0.4.0",
-    "node-schedule": "^2.1.0",
+    "node-schedule": "^2.1.1",
     "bunyan": "^1.8.15"
   },
   "devDependencies": {
